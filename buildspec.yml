@@ -1,5 +1,10 @@
 version: 0.2
 
+env:
+  shell: bash
+  parameter-store:
+    ECR: "ecr-statsd"
+    
 phases:
   pre_build:
     commands:
